@@ -1,4 +1,4 @@
-      classifier = m15.imageClassifier('https://teachablemachine.withgoogle.com/models/SxwvA4dfr/model.json',modelLoaded);
+      classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/SxwvA4dfr/model.json',modelLoaded);
 Webcam.attach( '#camera');
 camera = document.getElementById("camera");
 
