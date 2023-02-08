@@ -17,7 +17,7 @@ function modelLoaded(){
     console.log('model loaded');
 }
 function check(){
-    img= document.getElementById0('selfie_image');
+    img= document.getElementById('selfie_image');
     classifier.classify(img, gotResult);
 }
 function gotResult(error, results){
